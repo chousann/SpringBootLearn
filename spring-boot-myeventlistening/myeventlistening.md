@@ -1,0 +1,8 @@
+springboot 的事件监听机制
+几个重要是的事件回掉类
+1：配置在类路径下META-INF/spring.factories
+ApplicationContextInitializer
+SpringApplicationRunListener 
+2：只需要放在ioc容器中（注意使用自动配置要放在主配置所在的包下） 
+ApplicationRunner
+CommandLineRunner

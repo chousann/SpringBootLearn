@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.chousann.MyInitializer
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.chousann.MyListener
